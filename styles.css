@@ -212,3 +212,20 @@ img {
 .btn:hover {
   background-color:#9d9ece;
 }
+
+.photo-gallery {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* Space between photos */
+}
+
+.photo-grid img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: round corners */
+}
